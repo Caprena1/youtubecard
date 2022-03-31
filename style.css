@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background-color: rgb(36, 33, 33);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+
+
+}
+
+.header {
+
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-left: 425px;
+        width: 300px;
+        height: 200px; 
+        flex:1;
+        
+
+    
+}
+
+
+.main {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 400px;
+    display: flex; 
+    font-weight: bolder;
+    font-size: large;
+}
+
+.main1 {
+    font-weight: 100;
+    font-size: medium;
+}
+
+.button {
+    border: 3px solid red;
+    color: red;
+    background-color: transparent;
+    font-size: small;
+}
+    
+
+
+
+
+.sidebar {
+
+    flex: 1;  
+    font-size: xx-large;
+    margin-left: 425px;
+
+} 
+
+.ads {
+    flex: 2;
+
+}
+
